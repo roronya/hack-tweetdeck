@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "hack-tweetdeck",
+  "version": "1.0.0",
+  "description": "hack tweetdeck",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://tweetdeck.twitter.com/"
+      ],
+      "js": ["index.js"]
+    }
+  ]
+}
